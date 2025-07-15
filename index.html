@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Trang chủ GitHub Pages</title>
+  <style>
+    :root{
+      --accent:#ff4382;
+      --bg:#f9f9fb;
+      --text:#333;
+    }
+    *{box-sizing:border-box;margin:0;padding:0}
+    body{font-family:Arial,Helvetica,sans-serif;background:var(--bg);color:var(--text);line-height:1.6}
+    header{background:var(--accent);color:#fff;padding:2rem 1rem;text-align:center;border-bottom-left-radius:1rem;border-bottom-right-radius:1rem;box-shadow:0 2px 8px rgba(0,0,0,.15)}
+    header h1{font-size:2.2rem;margin-bottom:.5rem}
+    nav a{color:#fff;margin:0 .5rem;text-decoration:none;font-weight:bold}
+    .container{max-width:960px;margin:2rem auto;padding:0 1rem}
+    .gallery{display:grid;grid-template-columns:repeat(auto-fill,minmax(180px,1fr));gap:1rem}
+    .gallery img{width:100%;border-radius:.75rem;border:3px solid var(--accent);object-fit:cover;height:140px}
+    footer{text-align:center;padding:2rem 0;color:#777;font-size:.9rem}
+    @media (min-width:768px){
+      header h1{font-size:2.8rem}
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Xin chào từ GitHub Pages!</h1>
+    <nav>
+      <a href="#">Trang chủ</a>
+      <a href="#">Giới thiệu</a>
+      <a href="#">Liên hệ</a>
+    </nav>
+  </header>
+
+  <div class="container">
+    <h2 style="margin-bottom:1rem;color:var(--accent)">Bộ sưu tập ảnh</h2>
+    <p style="margin-bottom:1.5rem">Thay thế các ảnh mẫu bên dưới bằng link ảnh của bạn (từ ImgBB, Postimages, v.v.).</p>
+    <div class="gallery">
+      <img src="https://placekitten.com/300/200" alt="Ảnh mẫu 1">
+      <img src="https://placekitten.com/301/200" alt="Ảnh mẫu 2">
+      <img src="https://placekitten.com/302/200" alt="Ảnh mẫu 3">
+      <img src="https://placekitten.com/303/200" alt="Ảnh mẫu 4">
+      <img src="https://placekitten.com/300/201" alt="Ảnh mẫu 5">
+      <img src="https://placekitten.com/301/201" alt="Ảnh mẫu 6">
+    </div>
+  </div>
+
+  <footer>
+    © 2025 – Website của bạn trên GitHub Pages
+  </footer>
+</body>
+</html>
